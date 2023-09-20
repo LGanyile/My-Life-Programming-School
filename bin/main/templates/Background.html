@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="ISO-8859-1">
+	    <!--<link rel = "stylesheet" th:href="@{/css/bootstrap-4.3.1-dist/css/bootstrap.min.css}"></link>-->
+	    <link rel="stylesheet" 
+	    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+	    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+	    crossorigin="anonymous">
+		
+		<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+		
+	    <link rel = "stylesheet" th:href="@{/css/background.css}"></link>
+        <title>Background</title>
+    </head>
+    <body>
+        <div class = "container-fluid">
+            <div class = "row">
+                <div class = "col-md-12">
+                    <ul id = "Header_Items">			
+                        <li class = "Header_Item"><a href = "index" th:href = "@{/index}" class = "Header_Link">Home</a></li>
+			            <li class = "Header_Item"><a href = "ContactInfo.html" th:href = "@{/contact}" class = "Header_Link" target = "_blank">Contacts</a></li>
+			            <li class = "Header_Item"><a href="IntroToJava.html" th:href = "@{/java}" class = "Header_Link">Java</a></li>
+			            <li class = "Header_Item"><a href="IntroToPython.html" th:href = "@{/python}" class = "Header_Link">Python</a></li>
+			            <li class = "Header_Item"><a href="IntroToDart.html" th:href = "@{/dart}" class = "Header_Link">Dart</a></li>
+			            <li class = "Header_Item"><a href = "Games.html" th:href = "@{/games}" class = "Header_Link">Games</a></li>
+                        <li class = "Header_Item"><a href="ConsultationSession.html" th:href =  "@{/booking}" class = "Header_Link">Consultation</a></li>
+			            <li class = "Header_Item"><a href = "Login.html" th:href = "@{/signin(previousPage=Background)}" id="SignIn_Page_Link" class = "Header_Link">Login/SignIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class = "row">
+                <div class = "col-md-12">
+                    <p class = "Short_story font-weight-bold pt-3">
+                        A little bit of my background is important for everyone following my channel, that way we will have a  
+                        better understanding of each other. My full name is <em>Lwandile Ganyile</em> with an original home in 
+                        <strong>South Africa </strong> by the province called <strong>Eastern Cape</strong> in a midium 
+                        village called <a href = "https://i.ibb.co/XXdPJRK/Bizana-Home.jpg" target = "frame_one">Bizana</a>. This is where my 
+                        dad and <a href = "https://i.ibb.co/X401Zcs/Mom.jpg" target = "frame_one">mom</a> were born. They grew up 
+                        there unfortunately they didn't have a chance to get education as we did me and my <a href = "https://i.ibb.co/W32f5jr/Busiswa.jpg"
+                        
+                        target = "frame_one">sis</a>.
+                    </p>
+                </div>
+            </div>
+            <div class = "row">
+                <div class = "col-md-5">
+                    <figure class = "ml-3 mr-3">
+                        <img src="https://i.ibb.co/98JVLyp/Dad.jpg"width = "100%" 
+                        height = "300" alt = "Father"/>
+                        <figcaption class = "Blue_Text">
+                            Dad and my niece.
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class = "col-md-7">
+                    <iframe name = "frame_one" width = "100%" height = "300" ></iframe>
+                </div>
+            </div>
+            <div class = "row">
+                <div class = "col-md-12">
+                    <p class = "Short_story font-weight-bold">							
+                        My father told me his father was only concern about the well being of cows, nothing else. And 
+                        he wanted him to be the same. He didn't care  whether or not dad went to school, what he had for lunch at 
+                        school, apparently he didn't care about school at all.Things were bad in a way that my dad and his siblings 
+                        would literally go to school with only a t-shirt and a short trauser as a school uniform, no shoes, no 
+                        socks, no stationary either.  That is why he always inspired me to do well at school, not because he wanted 
+                        me to have too much money, rather to bring value to other people by giving them a chance he never had for education. 
+                        That is what this website and it's learning channel is all about, making a world a better place.
+                    </p>
+                </div>
+            </div>
+            <div class = "row">
+                <div class = "col-md-5">
+                    <figure class = "ml-3 mr-3">
+                        <img src="https://i.ibb.co/Z643dNG/Lwandile-2.jpg" width = "100%" 
+                            height = "300" alt = "Lwandile.">
+                        <figcaption class = "Blue_Text">
+                            Lwandile, at his home yard.
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class = "col-md-7">
+                    <iframe name = "frame_two" width = "100%" height = "300"></iframe>
+                </div>
+            </div>
+            <div class = "row">
+				<div class = "col-md-12">
+                    <p class = "Short_story font-weight-bold">
+						Lucky for me they were able to take us to Durban when we were still little kids with my sister. My father 
+						came to Durban looking for a job, we ended up staying there, by the township called Mayville Cato Crest which is a 
+						horrible place by the way. I grew up there, went to high school named <a 
+						href = "https://i.ibb.co/RBDQtJP/Mayville-Secondary-One.jpg" target = "frame_two">
+						Mayville Secondary School</a>. Afterwards, I went to tertiary at <a href = "http : // www.ukzn.com"
+						target = "frame_two">
+						University of Kwa Zulu Natal</a> (Westville Campus) where I graduated with a <abbr title = "Bachelor of Science">Bsc</abbr> Computer 
+                        Science, Mathematics &amp; IT degree. One may ask, then what happened? Well, after that I started working as a software developer 
+                        free-lance for five years. Finally I've decided to bring my knowledge and experience to other people not for money, rather to bring 
+                        value to them as it is my passion.
+                    </p>
+                </div>
+            </div>
+            <div class = "row">
+				<div class = "col-md-4">
+                    <blockquote class = "Blue_Text font-weight-bold ml-3 ">
+                        <strong><em>It's hard to put the effort into<br/> 
+                        creating greatness,but it's a lot<br/> 
+                        harder to accept the reality that<br/> 
+                        you could have been great.</em></strong><br/><br/>
+                        <em id = "Quote_By">By Lwandile Ganyile</em>
+                   </blockquote>
+				</div>
+            </div>
+		</div>
+    </body>
+</html>
